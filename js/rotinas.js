@@ -13,12 +13,13 @@ function testewrite(){
     // usando a write do objeto document escrevemos direto na página
     
     document.write("<div>Olá mundo eu estou aqui</div>");
-    var cores = [["B","blue"],["G","Green"],["k","Black"]];
-    document.writeln("<hr><hr>");
-    document.writeln(cores.length+"<br><hr>");
-    document.writeln(cores+"<hr>");
-    console.log(cores);
+    //var cores = [["B","blue"],["G","Green"],["k","Black"]];
+    //document.writeln("<hr><hr>");
+    //document.writeln(cores.length+"<br><hr>");
+    //document.writeln(cores+"<hr>");
+    //cores.forEach(itens=>{document.writeln(itens+"<hr>")});
 }
+
   
 
 
@@ -31,5 +32,4 @@ function testealert(){
             alert(nome+", Obrigado pela sua atenção")
             location.reload()
         }
-    }
-    
+    };
