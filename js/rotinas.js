@@ -30,29 +30,33 @@ function matrizes() {
     // criar e preencher Matrizes
     // mudei de * para - , porquê * e caractere reservado
     var deckherois = [["1ha", "1se", "1ne"],
-    ["2vn", "2hf", "2gm"],
-    ["3ca", "3hk", "3th"],
-    ["4fa", "4de", "4pn"],
-    ["5vi", "5fe", "-"],
-    ["6hf", "6cm", "-"]];
-    var deckviloes = [["1ha", "1se", "1ne"],
-    ["2vn", "2hf", "2gm"],
-    ["3ca", "3hk", "3th"],
-    ["4fa", "4de", "4pn"],
-    ["5vi", "5fe", "-"],
-    ["6hf", "6cm", "-"]];
+                      ["2vn", "2hf", "2gm"],
+                      ["3ca", "3hk", "3th"],
+                      ["4fa", "4de", "4pn"],
+                      ["5vi", "5fe", "-"],
+                      ["6hf", "6cm", "-"]];
+    var deckthanos = [["1jm", "1or", "1or"],
+                      ["2cg", "2ja", "-"],
+                      ["3je", "3en", "-"],
+                      ["4jp", "4pm", "-"],
+                      ["5fe", "5jr", "-"],
+                      ["6jt", "-", "-"],
+                      ["7th", "-", "-"]];
     //var deckthanos=
 
     // apresentar cada um dos elementos da matriz+
     apresentar(deckherois, "./img/herois");
-    apresentar(deckviloes, "viloes");
+    apresentar(deckthanos, "./img/thanos");
 }
 
+// FUNÇÃO apresentar recebe como argumento o Deck e o caminho em forma de string
 function apresentar(deck, path) {
+    var doc = document.getElementById('resultado');
     deck.forEach(posicao => {
-        document.write("<img src='" + path + "/" + posicao[0] + "small.png' width=50px>");
-        document.write("<img src='" + path + "/" + posicao[1] + "small.png' width=50px>");
-        document.write("<img src='" + path + "/" + posicao[2] + "small.png' width=50px><hr>");
+        doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[0] + "small.png' width=50px>";
+        doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[1] + "small.png' width=50px>";
+        doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[2] + "small.png' width=50px><br>";
+     
     })}
 
 
