@@ -1,0 +1,9 @@
+.matriz{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.matriz.img{
+ width:50px;   
+}
