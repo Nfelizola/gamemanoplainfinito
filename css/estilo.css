@@ -1,9 +1,6 @@
-.matriz{
-    display: flex;
-    flex-direction: column;
-    
-}
 
-.matriz.img{
- width:50px;   
-}
+body{
+    background-image: url("../img/Game_Manoplas_do_infinito.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+ }
