@@ -3,4 +3,4 @@
 
 https://nfelizola.github.io/gamemanoplainfinito/
 
-<button onclick=testeconsole()>Pelo Console</button>
+<img src="./img/sacoroxo1.png">
