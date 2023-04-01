@@ -2,17 +2,14 @@ function testedocument() {
     // usando a propriedade do DOM chamada getElementById() conseguimos interagir
     // com os objetos do DOM, assim podemos mudar o conteúdo dos elementos dinamicamente
     document.getElementById("resultado").innerHTML =
-        "<hr><p>Olá mundo eu estou aqui</p><hr>";
-}
+        "<hr><p>Olá mundo eu estou aqui</p><hr>";}
 
 function testeconsole() {
     // VERIFIQUE NA JANELA DE CONSOLE se esta operação funcionou
-    console.log("Olá mundo eu estou aqui");
-}
+    console.log("Olá mundo eu estou aqui");}
 
 function testewrite() {
     // usando a write do objeto document escrevemos direto na página
-
     document.write("<div>Olá mundo eu estou aqui</div>");
     const pi = 3.141516;
     var raio = 2 * pi;
@@ -23,8 +20,7 @@ function testewrite() {
     document.write("<hr><hr>");
     document.write("<p> olá " + nome + "</p>");
     document.write("<p> você já viveu " + (12 * idade)
-        + " meses</p>");
-}
+        + " meses</p>");}
 
 function matrizes() {
     // criar e preencher Matrizes
@@ -43,11 +39,9 @@ function matrizes() {
                       ["6jt", "-", "-"],
                       ["7th", "-", "-"]];
     //var deckthanos=
-
     // apresentar cada um dos elementos da matriz+
     apresentar(deckherois, "./img/herois");
-    apresentar(deckthanos, "./img/thanos");
-}
+    apresentar(deckthanos, "./img/thanos");}
 
 // FUNÇÃO apresentar recebe como argumento o Deck e o caminho em forma de string
 function apresentar(deck, path) {
@@ -56,10 +50,7 @@ function apresentar(deck, path) {
         doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[0] + "small.png' width=50px>";
         doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[1] + "small.png' width=50px>";
         doc.innerHTML = doc.innerHTML+"<img src='" + path + "/" + posicao[2] + "small.png' width=50px><br>";
-     
-    })}
-
-
+        })}
     function testealert() {
         alert("Olá sou uma janela de aviso");
         if (!confirm("confirma que me viu ??")) {
@@ -68,5 +59,4 @@ function apresentar(deck, path) {
             var nome = prompt("Me desculpe mas qual seu Nome mesmo ?");
             alert(nome + ", Obrigado pela sua atenção")
             location.reload()
-        }
-    };
+        }};
