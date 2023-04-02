@@ -59,4 +59,10 @@ function apresentar(deck, path) {
             var nome = prompt("Me desculpe mas qual seu Nome mesmo ?");
             alert(nome + ", Obrigado pela sua atenção")
             location.reload()
-        }};
+        }
+    
+        
+    };
+
+
+
