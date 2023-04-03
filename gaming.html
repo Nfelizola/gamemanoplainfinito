@@ -10,13 +10,12 @@
     <script src="./js/rotinas.js"></script>
 </head>
 <body>
+    
 <div class="telagame">
-    <audio autoplay="true" loop>
-        <source src="./audio/avstheme.mp3" type="audio/mp3">
-    </audio>
+ 
     <img src="./img/capaherois1small.png" class="deckherois">
     <img src="./img/capathanossmall.png" class="deckthanos">
-   <div class="playmatecentral">
+   <div class="playmatecentral" id="playmat" onclick="tocatrilha()" ondblclick="pausatrilha()" onmousewheel="ajustesom()">
     </div>
     <!-- a mão dos herois contem as imagens que representam as cartas -->
     <div class="maoherois">
@@ -63,5 +62,7 @@
    <img src="./img/herois/5fe.png" class="cartaampliadaherois">
 </div>
 </div>
+<audio src="./audio/avstheme.mp3" loop id="trilha"></audio>
+
 </body>
 </html>

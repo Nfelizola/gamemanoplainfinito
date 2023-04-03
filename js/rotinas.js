@@ -1,3 +1,26 @@
+function tocatrilha(){
+    trilha.play();
+    trilha.volume = 0.05;
+}
+function pausatrilha(){
+    trilha.pause();
+    trilha.volume= 0;
+}
+
+function ajustesom(){
+
+    console.log(trilha.volume);
+    if (trilha.volume<1||trilha.volume>0.00){
+        
+    if (event.wheelDelta>1){
+        trilha.volume = trilha.volume + 0.01;
+    }else{
+        
+        trilha.volume = trilha.volume - 0.01;
+    }
+    }
+    
+}
 
 
 function testedocument() {
@@ -65,6 +88,5 @@ function apresentar(deck, path) {
     
         
     };
-
 
 
