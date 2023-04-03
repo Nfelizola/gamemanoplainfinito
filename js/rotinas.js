@@ -1,3 +1,5 @@
+
+
 function testedocument() {
     // usando a propriedade do DOM chamada getElementById() conseguimos interagir
     // com os objetos do DOM, assim podemos mudar o conteúdo dos elementos dinamicamente
