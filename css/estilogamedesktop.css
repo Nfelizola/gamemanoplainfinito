@@ -2,146 +2,223 @@
     --card-largura: 28px;
     --card-altura: calc(var(--card-largura) * 1.64);
 }
-body{
-   /* Tela de fundo do  Game Celular */
-position: relative;
-width: 360px;
-height: 660px;
-background: linear-gradient(180deg, #B87B44 13.7%,
- #DAAC82 30.89%,  #FDFAFB 43.91%,
- #150B3E 62.66%, #010103 99.51%);
-max-width: 400px;
-min-width:360px;}
-.playmatecentral {
-    /* playmatecentral */
+
+
+.telagame{
+/* Tela Game Desktop */
+
+margin-top: 0px;
+padding: 0px;
 position: absolute;
-width: 360px;
-height: 653px;
-left: 0px;
-top: -6px;
-background: url("../img/gamecentral.png");
-border: 1px solid #721212;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+top:10px;
+left:10px;
+width: 100vw;
+height: 100vh;
+background: url(../img/Game_Manoplas_do_infinito.png);
+background-size: cover;
+/* background: linear-gradient(180deg, #B87B44 13.7%, #DAAC82 30.89%, #FDFAFB 43.91%, #150B3E 62.66%, #010103 96.51%); */
+}
+.playmatecentral {
+   /* playmatecentral */
+
+display: block;
+position: absolute;
+width: 100vw;
+height: 100vh;
+left: -15px;
+top: -40px;
+opacity: 1;
+    
+   
+  
+    border: 1px solid #721212;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+
 .maoherois{
-     /* Maoherois */
+/* mesaherois */
+
 
 /* Auto layout */
-position: absolute;
-width: 136px;
-height: 60px;
-left: 104px;
-bottom: 33px;
+
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 10px;
-gap: 10px;}
+padding: 0px;
+
+position: relative;
+width: 577px;
+height: 304px;
+left: 30%;
+top: 80%;
+}
+
 .maothanos{
-    /* Maothanos */
+/* Maothanos */
+
+
 /* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 10px;
 gap: 10px;
-position: absolute;
-width: 136px;
-height: 60px;
-left: 104px;
-top: 16px;}
+position: relative;
+width: 280px;
+height: 151.43px;
+left: 40%;
+top: 0%;
+}
+
+
 .deckherois{
-    /* deckherois */
+/* deckherois */
+
+
 position: absolute;
-width: var(--card-largura);
-height: var(--card-altura);
-left: 320px;
-bottom: 150px;}
+width: 80px;
+height: 131.43px;
+left: calc(50% - 80px/2 + 689px);
+top: 624px;
+}
+
+
 .deckthanos{
-    /* deckthanos */
+/* deckthanos */
+
+
 position: absolute;
-width: 28px;
-height: 46px;
-left: calc(50% - 28px/2 - 153px);
-top: 123px;}
+width: 80px;
+height: 131.43px;
+left: calc(50% - 80px/2 - 623px);
+top: 119px;
+
+background-image: url(../img/capathanossmall.png);
+}
+
+
 .cardh{
-    /* Card2 */
-width: var(--card-largura);
-height:var(--card-altura);
-background: url("../img/capaherois1small.png");
+/* Card2 */
+
+
+width: 80px;
+height: 131.43px;
+
+background: url(../img/capaherois1small.png);
+
 /* Inside auto layout */
+
 flex: none;
 order: 0;
-flex-grow: 0;}
+flex-grow: 0;
+}
+
+
 .cardt{
-    /* card1 */
-width: var(--card-largura);
-height: var(--card-altura);
+/* Card1 */
+
+
+width: 80px;
+height: 131.43px;
+
+background: url(../img/capathanossmall.png);
+
 /* Inside auto layout */
+
 flex: none;
-order: 1;
-flex-grow: 0;}
+order: 0;
+flex-grow: 0;
+}
+
+
 .mesathanos{
-    /* mesathanos */
+/* mesathanos */
+
+
 /* Auto layout */
+
 display: flex;
-border-style:dashed;
-border-radius: 5px;
-border-color: #b5a0a7;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 0px;
+
 position: absolute;
-width: 260px;
-height: 32.86px;
-left: 55px;
-top: 200px;}
+width: 858px;
+height: 108.9px;
+left: 366px;
+top: 337px;
+}
+
+
 .mesaherois{
 /* mesaherois */
+
+
 /* Auto layout */
+
 display: flex;
-border-style:dashed;
-border-radius: 5px;
-border-color: #b5a0a7;
-flex-flow: row wrap;
-justify-content:center;
+flex-direction: row;
+justify-content: center;
 align-items: center;
 padding: 0px;
+
 position: absolute;
-width: 260px;
-height: 60px;
-left: 50px;
-top: 320px;}
+width: 577px;
+height: 304px;
+left: 446px;
+top: 521px;
+}
+
+
 .t {
     width: var(--card-largura);
     height: var(--card-altura);
     visibility: hidden}
+
+
 .h {
     width: var(--card-largura);
     height: var(--card-altura);
     visibility: hidden;}
+
+
 .cartaampliadathanos{
-position: absolute;
-width: 80px;
-left: 75px;
-top: 82px;}
+    position: absolute;
+    width: 160px;
+    height: 249.14px;
+    left: 118px;
+    top: 351px;
+}    
+
 .cartaampliadathanos:hover{
     position: absolute;
-    width: 180px;
-    left: 75px;
-    top: 82px;}
+    width: 200px;
+   height: auto;
+   margin-left: -20px;
+}
+
+
 .cartaampliadaherois{
  /* cardampliadaheroi */
+
+
 position: absolute;
-width: 80px;
-left: 75px;
-top: 390px;}
+width: 160px;
+height: 249.14px;
+left: 118px;
+top: 648px;
+}
+
 .cartaampliadaherois:hover{
     /* cardampliadaheroi */
    position: absolute;
-   width: 180px;
-   left: 75px;
-   top: 390px;}
-
+   width: 200px;
+   height: auto;
+   margin-left: -20px;
+}

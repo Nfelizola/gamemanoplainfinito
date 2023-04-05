@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./img/myglove.ico">
     <title>O @iNEVITÁVEL game</title>
-    <link rel="stylesheet" href="./css/estilogamemobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="./css/estilogamemobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="./css/estilogamedesktop.css">
     <script src="./js/rotinas.js"></script>
 </head>
 <body>
-    
-<div class="telagame">
- 
-    <img src="./img/capaherois1small.png" class="deckherois">
-    <img src="./img/capathanossmall.png" class="deckthanos">
-   <div class="playmatecentral" id="playmat" onclick="tocatrilha()" ondblclick="pausatrilha()" onmousewheel="ajustesom()">
+    <div class="playmatecentral" id="playmat" onclick="tocatrilha()" ondblclick="pausatrilha()" onmousewheel="ajustesom()">
     </div>
+    <div class="telagame">
+   
+ 
     <!-- a mão dos herois contem as imagens que representam as cartas -->
     <div class="maoherois">
         <img src="./img/capaherois1small.png" class="cardh">
@@ -60,6 +59,10 @@
 </div>
    <img src="./img/thanos/4pm.png" class="cartaampliadathanos">
    <img src="./img/herois/5fe.png" class="cartaampliadaherois">
+   <img src="./img/capaherois1small.png" class="deckherois">
+   <img src="./img/capathanossmall.png" class="deckthanos">
+
+   </div>
 </div>
 </div>
 <audio src="./audio/avstheme.mp3" loop id="trilha"></audio>
