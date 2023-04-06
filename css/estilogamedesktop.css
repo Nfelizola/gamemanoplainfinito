@@ -1,42 +1,67 @@
+
+/* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
+ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: none;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    /*/overflow: hidden;*/
+  } 
 :root {
     --card-largura: 28px;
     --card-altura: calc(var(--card-largura) * 1.64);
 }
-
-
+.btnescrito{
+    display: block;
+    position:relative;
+    width:300px;
+    height:40px;
+    top:29%;
+    left:50%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    border-color: #721212;
+    border-radius: 5px;
+    z-index: 1;
+}
+.btncentral{
+    display: block;
+    position:relative;
+    width:200px;
+    height:20px;
+    top:29%;
+    left:50%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    border-color: #721212;
+    border-radius: 5px;
+    z-index: 1;
+}
 .telagame{
 /* Tela Game Desktop */
-
-margin-top: 0px;
-padding: 0px;
 position: absolute;
-top:10px;
-left:10px;
+top:2px;
+left:2px;
 width: 100vw;
 height: 100vh;
 background: url(../img/Game_Manoplas_do_infinito.png);
-background-size: cover;
+background-size:cover;  
 /* background: linear-gradient(180deg, #B87B44 13.7%, #DAAC82 30.89%, #FDFAFB 43.91%, #150B3E 62.66%, #010103 96.51%); */
 }
 .playmatecentral {
    /* playmatecentral */
 
-display: block;
-position: absolute;
-width: 100vw;
-height: 100vh;
-left: -15px;
-top: -40px;
+display: contents;
 opacity: 1;
-    
-   
-  
     border: 1px solid #721212;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
 }
-
-
 .maoherois{
 /* mesaherois */
 
@@ -45,77 +70,58 @@ opacity: 1;
 
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 padding: 0px;
-
 position: relative;
-width: 577px;
-height: 304px;
-left: 30%;
-top: 80%;
+width: 204px;
+height: 140px;
+left: 42%;
+top:75%;
 }
-
 .maothanos{
 /* Maothanos */
-
-
 /* Auto layout */
-
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
-padding: 10px;
-gap: 10px;
-position: relative;
-width: 280px;
-height: 151.43px;
-left: 40%;
+position:absolute;
+width: 340px;
+height: 140px;
+left: 38%;
 top: 0%;
 }
 
 
 .deckherois{
 /* deckherois */
-
-
 position: absolute;
 width: 80px;
 height: 131.43px;
-left: calc(50% - 80px/2 + 689px);
-top: 624px;
+bottom: 5%;
+left: 92%;
 }
-
 
 .deckthanos{
 /* deckthanos */
-
-
 position: absolute;
 width: 80px;
 height: 131.43px;
-left: calc(50% - 80px/2 - 623px);
-top: 119px;
-
+top: 5%;
+left:2%;
 background-image: url(../img/capathanossmall.png);
 }
 
 
 .cardh{
 /* Card2 */
-
-
 width: 80px;
 height: 131.43px;
-
 background: url(../img/capaherois1small.png);
 
-/* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+
 }
 
 
@@ -130,8 +136,7 @@ background: url(../img/capathanossmall.png);
 
 /* Inside auto layout */
 
-flex: none;
-order: 0;
+
 flex-grow: 0;
 }
 
@@ -144,15 +149,14 @@ flex-grow: 0;
 
 display: flex;
 flex-direction: row;
-justify-content: center;
 align-items: center;
 padding: 0px;
-
+border-style:dashed;
+border-radius: 5px;
+border-color: #b5a0a7;
 position: absolute;
-width: 858px;
-height: 108.9px;
-left: 366px;
-top: 337px;
+left: 40%;
+top: 30%;
 }
 
 
@@ -164,61 +168,37 @@ top: 337px;
 
 display: flex;
 flex-direction: row;
-justify-content: center;
 align-items: center;
 padding: 0px;
-
 position: absolute;
-width: 577px;
-height: 304px;
-left: 446px;
-top: 521px;
+left: 40%;
+top: 50%;
 }
-
 
 .t {
-    width: var(--card-largura);
-    height: var(--card-altura);
-    visibility: hidden}
-
+    width: 80px;
+    height: 131.43px;
+}
 
 .h {
-    width: var(--card-largura);
-    height: var(--card-altura);
-    visibility: hidden;}
-
-
+    width: 80px;
+    height: 131.43px;
+}
 .cartaampliadathanos{
     position: absolute;
-    width: 160px;
-    height: 249.14px;
-    left: 118px;
-    top: 351px;
-}    
-
-.cartaampliadathanos:hover{
-    position: absolute;
     width: 200px;
-   height: auto;
-   margin-left: -20px;
-}
-
-
+    height: auto;
+    left: 218px;
+    top: 151px;
+    visibility: hidden;
+}    
 .cartaampliadaherois{
  /* cardampliadaheroi */
-
-
 position: absolute;
-width: 160px;
-height: 249.14px;
+width: 260px;
+height: auto;
 left: 118px;
-top: 648px;
+top: 50%;
+visibility: hidden;
 }
 
-.cartaampliadaherois:hover{
-    /* cardampliadaheroi */
-   position: absolute;
-   width: 200px;
-   height: auto;
-   margin-left: -20px;
-}

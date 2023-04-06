@@ -8,64 +8,44 @@
     <title>O @iNEVITÁVEL game</title>
     <link rel="stylesheet" media="screen and (max-width: 900px)" href="./css/estilogamemobile.css">
     <link rel="stylesheet" media="screen and (min-width: 901px)" href="./css/estilogamedesktop.css">
-    <script src="./js/rotinas.js"></script>
+    <script src="./js/codigogame.js"></script>
 </head>
-<body>
-    <div class="playmatecentral" id="playmat" onclick="tocatrilha()" ondblclick="pausatrilha()" onmousewheel="ajustesom()">
-    </div>
-    <div class="telagame">
-   
- 
+<body >
+<div class="playmatecentral" id="playmat" onclick="tocatrilha()" ondblclick="pausatrilha()" onmousewheel="ajustesom()">
+  <div class="telagame">
+  
     <!-- a mão dos herois contem as imagens que representam as cartas -->
     <div class="maoherois">
-        <img src="./img/capaherois1small.png" class="cardh">
-        <img src="./img/capaherois1small.png" class="cardh">
+        <img src="./img/capaherois1small.png" class="cardh" id="maoh1" onmouseout="normalizar()" onmouseover="ampliar(this)">
     </div>
     <div class="maothanos">
+        <img src="./img/capathanossmall.png" class="cardt" id="maot1">
         <img src="./img/capathanossmall.png" class="cardt">
-        <img src="./img/capathanossmall.png" class="cardt">
-        <img src="./img/capathanossmall.png" class="cardt">
+        <img src="./img/capathanossmall.png" class="cardt"> 
     </div>
-   <div class="mesathanos">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
-    <img src="./img/capathanossmall.png" class="t">
+   <div class="mesathanos" id="mesathanos">
+     <img src=#  class="t" id="met1" > 
+     <img src=#  class="t" id="met2" >
+     <img src=#  class="t" id="met3" >
+     <img src=#  class="t" id="met4" >
+     <img src=#  class="t" id="met5" >
+     <img src=#  class="t" id="met6" >     
     </div> 
+    <button class="btncentral" id="start" onclick=startgame()>Start</button>
    <div class="mesaherois">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-    <img src="./img/capaherois1small.png" class="h">
-</div>
-   <img src="./img/thanos/4pm.png" class="cartaampliadathanos">
-   <img src="./img/herois/5fe.png" class="cartaampliadaherois">
+    <!-- <img src="./img/capaherois1small.png" class="h"> -->
+   </div>
+   <span id="escritos"class="btnescrito"></span><img src="./img/capathanossmall.png" class="cartaampliadathanos" id="cat">
+   <img src="./img/capaherois1small.png" class="cartaampliadaherois" id="cah">
    <img src="./img/capaherois1small.png" class="deckherois">
    <img src="./img/capathanossmall.png" class="deckthanos">
-
    </div>
 </div>
 </div>
+</div>
 <audio src="./audio/avstheme.mp3" loop id="trilha"></audio>
+<audio src="./audio/inevitavel.m4a"  id="vozthanos"></audio>
+<audio src=# loop id="vozherois"></audio>
 
 </body>
 </html>
