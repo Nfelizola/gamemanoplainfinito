@@ -4,7 +4,7 @@
 
 https://nfelizola.github.io/gamemanoplainfinito/
 
-<img src="./img/sacoroxo1.png" width=400px>
+<img src="./img/sacoroxo1.png" href=# width=400px>
 
 # 01ª-fase do Exercício:
 ## (Finalizar página)
@@ -104,5 +104,5 @@ Lembrando que esse é apenas um exemplo de como a estrutura orientada a objetos 
 Todas as imagens e caracteres usados são de propriedade da Marvel, este projeto é totalmente baseado em um jogo licenciado pela mesma e o propósito é estritamente DIDÁTICO.
 
 Quem conseguir apresentar uma versão deste Desafio no formato Orientado a Objeto, terá suas recompensas:
-<div width="250" height="320" style="background-image="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/fa58486f-4b80-4c8c-bd47-0f1bd2b66eb0"></div>
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/fa58486f-4b80-4c8c-bd47-0f1bd2b66eb0" width=400px>
 
