@@ -105,6 +105,6 @@ Todas as imagens e caracteres usados são de propriedade da Marvel, este projeto
 
 Quem conseguir apresentar uma versão deste Desafio no formato Orientado a Objeto, terá suas recompensas:
 <img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/fa58486f-4b80-4c8c-bd47-0f1bd2b66eb0" height=400px>
-<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/21e04768-26fe-4abc-b72f-5b02afeecf4c" heigth=400px>
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/21e04768-26fe-4abc-b72f-5b02afeecf4c" height=400px>
 
 
