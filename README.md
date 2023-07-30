@@ -104,7 +104,7 @@ Lembrando que esse é apenas um exemplo de como a estrutura orientada a objetos 
 Todas as imagens e caracteres usados são de propriedade da Marvel, este projeto é totalmente baseado em um jogo licenciado pela mesma e o propósito é estritamente DIDÁTICO.
 
 Quem conseguir apresentar uma versão deste Desafio no formato Orientado a Objeto, terá suas recompensas:
-<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/fa58486f-4b80-4c8c-bd47-0f1bd2b66eb0" width=260px>
-<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/21e04768-26fe-4abc-b72f-5b02afeecf4c" width=260px>
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/fa58486f-4b80-4c8c-bd47-0f1bd2b66eb0" width=300px>
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/21e04768-26fe-4abc-b72f-5b02afeecf4c" heigth=300px>
 
 
