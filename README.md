@@ -16,7 +16,7 @@ Só isto já é um grande desafio.
 Quem conseguir passar por esta primeira fase, estará habilidado a executar a segunda fase.
 
 #02-fase
-## (Merlhorar o código implementando oo)
+## (Melhorar o código implementando oo)
 
 Depois disto vocês podem tentar (ESTA FASE NÃO É OBRIGATÓRIA) melhorar ainda mais transformando  o código fornecido em uma estrutura orientada a objetos. 
 
