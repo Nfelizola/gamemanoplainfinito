@@ -1,11 +1,12 @@
-# gamemanoplainfinito
-
+# Game-Manopla do infinito
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/7f2c275e-34a2-4c39-9ae1-10798be1cf15">
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/172ead17-11ba-485b-8405-8a40d78f79bc">
 
 https://nfelizola.github.io/gamemanoplainfinito/
 
 <img src="./img/sacoroxo1.png" width=400px>
 
-#01-fase do Exercício:
+# 01ª-fase do Exercício:
 ## (Finalizar página)
 Perceba fazendo a execução da página que apenas quando o THANOS joga a carta de número 01. é que ele está fazendo uma ação mais completa, vc terá que finalizar esta ação e implementar as outras cartas, no caso do thanos e no caso do jogador humano.
 
@@ -15,7 +16,7 @@ Só isto já é um grande desafio.
 
 Quem conseguir passar por esta primeira fase, estará habilidado a executar a segunda fase.
 
-#02-fase
+# 02ª-fase
 ## (Melhorar o código implementando oo)
 
 Depois disto vocês podem tentar (ESTA FASE NÃO É OBRIGATÓRIA) melhorar ainda mais transformando  o código fornecido em uma estrutura orientada a objetos. 
