@@ -1,6 +1,7 @@
 # Game-Manopla do infinito
-<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/7f2c275e-34a2-4c39-9ae1-10798be1cf15">
-<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/172ead17-11ba-485b-8405-8a40d78f79bc">
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/7f2c275e-34a2-4c39-9ae1-10798be1cf15" height=60px>
+<img src="https://github.com/Nfelizola/gamemanoplainfinito/assets/55410946/172ead17-11ba-485b-8405-8a40d78f79bc"height=60px>
+BAseado no Jogo LoveLetter.
 
 https://nfelizola.github.io/gamemanoplainfinito/
 
